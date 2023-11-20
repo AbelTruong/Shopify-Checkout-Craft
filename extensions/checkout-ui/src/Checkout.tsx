@@ -15,8 +15,11 @@ function Extension() {
   const { extension } = useApi();
 
   return (
+    <div className="">
     <Banner title="checkout-ui">
       {translate('welcome', {target: extension.target})}
     </Banner>
+    <div className="">Hello guys, this is a checkout-ui extensions.</div>
+    </div>
   );
 }

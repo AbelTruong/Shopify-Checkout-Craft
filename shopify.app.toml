@@ -2,7 +2,7 @@
 
 name = "checkout-craft"
 client_id = "773cde6d5df26cbc4420efe7263667c4"
-application_url = "https://champion-condo-sleeping-dealer.trycloudflare.com"
+application_url = "https://cisco-victory-copy-sig.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,10 +11,10 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://champion-condo-sleeping-dealer.trycloudflare.com/auth/callback",
-  "https://champion-condo-sleeping-dealer.trycloudflare.com/auth/shopify/callback",
-  "https://champion-condo-sleeping-dealer.trycloudflare.com/api/auth/callback",
-  "https://champion-condo-sleeping-dealer.trycloudflare.com/.shopify/graphiql/auth/callback"
+  "https://cisco-victory-copy-sig.trycloudflare.com/auth/callback",
+  "https://cisco-victory-copy-sig.trycloudflare.com/auth/shopify/callback",
+  "https://cisco-victory-copy-sig.trycloudflare.com/api/auth/callback",
+  "https://cisco-victory-copy-sig.trycloudflare.com/.shopify/graphiql/auth/callback"
 ]
 
 [webhooks]

@@ -18402,10 +18402,10 @@
             }
           }
           var jsx5 = jsxWithValidationDynamic;
-          var jsxs = jsxWithValidationStatic;
+          var jsxs2 = jsxWithValidationStatic;
           exports.Fragment = REACT_FRAGMENT_TYPE;
           exports.jsx = jsx5;
-          exports.jsxs = jsxs;
+          exports.jsxs = jsxs2;
         })();
       }
     }
@@ -19507,7 +19507,10 @@ ${errorInfo.componentStack}`);
   function Extension() {
     const translate = useTranslate();
     const { extension: extension2 } = useApi();
-    return /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Banner2, { title: "checkout-ui", children: translate("welcome", { target: extension2.target }) });
+    return /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Banner2, { title: "checkout-ui", children: translate("welcome", { target: extension2.target }) }),
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "", children: "Hello guys, this is a checkout-ui extensions." })
+    ] });
   }
 })();
 //# sourceMappingURL=checkout-ui.js.map
