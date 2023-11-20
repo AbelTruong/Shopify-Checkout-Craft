@@ -1,0 +1,28 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "checkout-craft"
+client_id = "773cde6d5df26cbc4420efe7263667c4"
+application_url = "https://champion-condo-sleeping-dealer.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://champion-condo-sleeping-dealer.trycloudflare.com/auth/callback",
+  "https://champion-condo-sleeping-dealer.trycloudflare.com/auth/shopify/callback",
+  "https://champion-condo-sleeping-dealer.trycloudflare.com/api/auth/callback",
+  "https://champion-condo-sleeping-dealer.trycloudflare.com/.shopify/graphiql/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-10"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "abel-developer.myshopify.com"
